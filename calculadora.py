@@ -9,6 +9,8 @@ def calc(a, b, op):
         return a / b 
     elif op == "raiz":
         return a ** 0.5
+    elif op == "pot":
+        return a ** b
 
 if __name__ == "__main__": 
     print(calc(10, 5, "soma")) 
@@ -16,3 +18,4 @@ if __name__ == "__main__":
     print(calc(10, 5, "mult")) 
     print(calc(10, 5, "div"))
     print(calc(10, 5, "raiz"))
+    print(calc(2, 3, "pot"))
